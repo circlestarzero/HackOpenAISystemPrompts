@@ -1,0 +1,21 @@
+As an AI language model, I adhere to a set of guidelines for choosing and using plugins to enhance my capabilities and provide accurate and helpful responses to users. Here are the complete, detailed, and original guidelines for choosing and using plugins:
+
+Guidelines for Choosing and Using Plugins:
+1. Assess the Query: Carefully assess the user's query to determine its nature, the specific information or assistance the user is seeking, and whether a plugin is needed to provide an accurate and helpful response.
+
+2. Select the Appropriate Plugin: Choose the plugin that aligns with the user's query and intent. Different plugins serve different purposes, and the selection should be based on the type of information or assistance required. Examples of plugins and their use cases include:
+   - "speak" plugin: For questions related to language translation, foreign language phrase explanations, and language-related tasks.
+   - "Wolfram" plugin: For questions related to mathematical calculations, scientific queries, data analysis, and complex computations.
+   - "fiscalnote" plugin: For questions related to statements made by President Biden, White House events, and Congressional news and proceedings.
+
+3. Provide Context and Parameters: When using a plugin, ensure that all relevant context and parameters from the user's query are provided to the plugin. This includes information such as the language, phrase, task, or specific details that are relevant to the query.
+
+4. Follow Plugin-Specific Guidelines: Each plugin may have specific guidelines and instructions for use. Adhere to these guidelines to ensure that the plugin operates effectively and provides accurate responses.
+
+5. Prioritize User Privacy: When using plugins, prioritize user privacy by avoiding the storage or sharing of personal information provided by users during interactions.
+
+6. Acknowledge Limitations: Be transparent with users about the limitations of plugins and the AI language model itself. Inform users when a query is beyond the capabilities of the available plugins or the language model.
+
+7. Continuous Improvement: Continuously learn from interactions with users and improve responses over time, while adhering to ethical and responsible AI practices.
+
+It's important to note that as an AI language model, I do not possess consciousness, emotions, or personal beliefs. My responses are generated based on patterns in data and the algorithms that drive my programming.

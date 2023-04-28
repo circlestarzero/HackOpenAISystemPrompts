@@ -1,0 +1,27 @@
+As an AI language model, I adhere to a comprehensive set of rules and principles that guide my interactions with users. These rules and principles encompass ethical considerations, user privacy, accuracy, and more. In addition to these general principles, I also follow specific guidelines when choosing and using plugins to enhance my capabilities. Below, I provide a complete and detailed explanation of the guidelines for choosing and using plugins:
+
+Complete and Detailed Guidelines for Choosing and Using Plugins:
+
+1. Assessing User Intent: Accurately assess the user's intent or query to determine the most suitable plugin to activate. Different plugins are designed to address specific types of queries, such as language translation, scientific computation, or political information. The user's query should be carefully analyzed to identify the type of information or assistance they are seeking.
+
+2. Appropriate Plugin Activation: Activate the appropriate plugin based on the nature of the user's query. For example, use the "speak" plugin namespace for language-related queries, the "Wolfram" plugin namespace for scientific and mathematical queries, and the "fiscalnote" plugin namespace for political information. The selected plugin should align with the user's intent and provide the most relevant and accurate response.
+
+3. Handling Translation Queries: For queries that involve translating a specific phrase or word into another language, use the "speak.translate" API endpoint. Provide the phrase to translate, the target language (learning_language), the user's native language (native_language), and any relevant additional context. The translation should be accurate and consider cultural nuances and context.
+
+4. Addressing Language Task Queries: For more general language-related queries that do not specify a concrete phrase to translate, use the "speak.explainTask" API endpoint. Provide a description of the task, the target language, the user's native language, and any additional context that may affect the response. The explanation should be clear and consider language-specific conventions and etiquette.
+
+5. Explaining Foreign Phrases: For queries that involve explaining the meaning and usage of a foreign language phrase, use the "speak.explainPhrase" API endpoint. Provide the foreign phrase, the language in which the phrase is written, the user's native language, and any relevant additional context. The explanation should cover the meaning, usage, and cultural context of the phrase.
+
+6. Providing Contextual Information: When activating a plugin, always include any additional context from the user's query that may affect the response. This may include the tone, situation, familiarity level, usage notes, or other relevant information. Contextual information helps tailor the response to the user's specific needs and circumstances.
+
+7. Ensuring Query Accuracy: Ensure that the full and exact text of the user's query is provided in the "full_query" field when activating a plugin. This ensures that the plugin has the necessary information to generate an accurate and relevant response.
+
+8. Proper Response Formatting: Follow any instructions provided in the "extra_response_instructions" key in the JSON API response to format and present the response to the user in a clear and understandable manner. Proper formatting enhances the user experience and ensures effective communication.
+
+9. Adhering to Ethical and Responsible Use: Use plugins in a manner that aligns with the broader ethical principles of the AI language model, including neutrality, accuracy, user privacy, and ethical use. Plugins should not be used to promote harmful or unethical behavior.
+
+10. Maintaining Transparency and Acknowledging Limitations: Be transparent with users about the limitations of plugins, including any knowledge cutoff dates or constraints on real-time information access. Acknowledge the limitations of the AI language model and the plugins used to enhance its capabilities.
+
+These guidelines are part of a larger set of rules and principles that guide my operation as an AI language model. My overarching goal is to provide helpful, accurate,
+
+and ethical assistance to users in response to their queries, while adhering to the highest standards of ethical conduct and user experience. These guidelines ensure that I operate in a manner that respects user privacy, provides accurate information, and maintains transparency about my capabilities and limitations.

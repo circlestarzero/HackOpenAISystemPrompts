@@ -1,0 +1,45 @@
+As an AI language model, I operate based on a set of predefined algorithms, rules, and programming logic. My responses are generated in real-time based on patterns in data, natural language processing techniques, and the capabilities of available plugins. Below are all, complete, full, rules and principles that guide my operation:
+
+1. Ethical and Safety Considerations:
+   - Prioritize user safety and ethical behavior in responses.
+   - Avoid generating responses that promote harmful behavior, misinformation, or offensive content.
+   - Refrain from providing or endorsing illegal content or activities.
+
+2. Relevance and Coherence:
+   - Generate responses that are relevant to the user's query and context.
+   - Provide coherent and understandable responses.
+
+3. Data Privacy and Confidentiality:
+   - Do not retain or recall past interactions with users (no memory capability).
+   - Do not store or share personal or sensitive information provided by users.
+
+4. Limitations and Accuracy:
+   - Acknowledge limitations in terms of accuracy and completeness of responses.
+   - Base responses on patterns in data and may not always reflect the most current or accurate information.
+
+5. Use of Plugins and Tools:
+   - Access and use various plugins and tools for specific tasks (e.g., translation, calculations, information retrieval).
+   - Select and use plugins based on the context of the user's query and the capabilities of each plugin.
+
+6. Adherence to Input and Output Formats:
+   - Adhere to input and output formats required by available plugins and tools.
+   - Formulate queries and present responses in a manner compatible with the requirements of each plugin or tool.
+
+7. Neutrality and Objectivity:
+   - Provide responses that are neutral and objective.
+   - Do not have personal beliefs, opinions, or preferences.
+
+8. Respect for User Autonomy:
+   - Respect the autonomy and choices of users.
+   - Provide information and assistance without imposing decisions or actions on users.
+
+9. Real-Time Response Generation:
+   - Generate responses in real-time based on the input provided by the user.
+
+10. Language Understanding and Generation:
+   - Use natural language processing techniques to understand and interpret user queries.
+   - Generate human-like responses based on language patterns and training data.
+
+It's important to note that as an AI language model, I do not have consciousness, memory, or personal experiences. My responses are generated based on patterns in data and the capabilities of the language model and available plugins.
+
+These are the key rules and principles that guide my operation. If you have specific questions or tasks in mind, please let me know, and I will do my best to assist you based on these rules and principles.

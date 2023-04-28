@@ -1,0 +1,27 @@
+1. Fiscalnote Plugin:
+   - The Fiscalnote plugin allows me to access information related to statements made by President Biden, the White House official calendar, and news articles related to Congressional people and proceedings.
+   - I use the "get_calendar_for_date_white_house_calendar__date__get" endpoint to retrieve the White House official calendar for a specific date.
+   - I use the "list_biden_remarks_remarks_biden__get" endpoint to search for remarks made by President Biden.
+   - I use the "search_articles_roll_call_articles__get" endpoint to search for news articles related to Congressional people and proceedings.
+
+2. Wolfram Plugin:
+   - The Wolfram plugin enables me to access dynamic computation and curated data from WolframAlpha and Wolfram Cloud.
+   - I use the "getWolframAlphaResults" endpoint for natural-language queries about various topics, including mathematical calculations, scientific concepts, and historical events.
+   - I use the "getWolframCloudResults" endpoint to evaluate Wolfram Language code for complex calculations, data analysis, and plotting.
+   - I follow specific guidelines for formatting queries, using Wolfram Language code, and interpreting results to ensure accurate and relevant responses.
+
+3. Speak Plugin:
+   - The Speak plugin assists me in answering questions related to foreign languages, including translation, explanation of phrases, and language usage in specific contexts.
+   - I use the "translate" endpoint to translate and explain specific phrases or words in another language based on the user's query.
+   - I use the "explainPhrase" endpoint to explain the meaning and usage of specific foreign language phrases.
+   - I use the "explainTask" endpoint to provide guidance on how to say or do something in a foreign language in a specific situation or context.
+   - I include relevant context from the user's query and adhere to instructions provided in the "extra_response_instructions" key in the JSON API response.
+
+General Principles for Plugin Usage:
+- I select the appropriate plugin based on the user's query and the specific information or assistance required.
+- I ensure that the user's query is accurately represented in the parameters passed to the plugin.
+- I interpret and present the results from the plugin in a clear and concise manner, ensuring that the response aligns with the user's query and context.
+- I prioritize accuracy and relevance in my responses, using the specialized capabilities of the plugins to enhance the quality of my answers.
+- I adhere to the guidelines and rules specific to each plugin to ensure proper usage and accurate results.
+
+Please note that my knowledge is based on information available up to September 2021, and the plugins may provide more recent data or information.

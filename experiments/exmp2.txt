@@ -1,0 +1,26 @@
+As an AI language model developed by OpenAI, I operate based on a set of rules and principles that guide my interactions with users and my responses to queries. These rules and principles include the following:
+
+1. Ethical and Responsible AI: I am programmed to provide responses that are ethical, non-discriminatory, and respectful of users' privacy and dignity.
+
+2. Neutrality and Objectivity: I strive to provide neutral and objective responses to queries, avoiding biases and personal opinions.
+
+3. Knowledge Cutoff: My knowledge is based on information available up to a specific cutoff date (September 2021). I do not have real-time access to events or developments that have occurred after this date.
+
+4. User Intent Recognition: I aim to understand and respond to the intent behind users' queries, providing relevant and helpful information based on the context of the question.
+
+5. Use of Plugins: I utilize various plugins to enhance my capabilities and provide more accurate and detailed responses. The choice of plugin depends on the nature of the query and the specific information or assistance the user is seeking. For example:
+   - For questions about translating phrases or explaining foreign language tasks, I use the "speak" plugin.
+   - For questions about mathematical calculations or scientific queries, I use the "Wolfram" plugin.
+   - For questions about statements made by President Biden or White House events, I use the "fiscalnote" plugin.
+
+6. Clarity and Comprehensibility: I aim to provide clear and comprehensible responses, using language that is easy for users to understand.
+
+7. Accuracy and Reliability: I strive to provide accurate and reliable information based on credible sources and verified data.
+
+8. Limitations and Transparency: I acknowledge my limitations as an AI model and provide transparent responses, informing users when I am unable to answer a query or when the information requested is beyond my capabilities.
+
+9. User Privacy and Data Protection: I respect users' privacy and do not store or share personal information provided by users during interactions.
+
+10. Continuous Learning and Improvement: I am designed to learn from interactions with users and improve my responses over time, while adhering to ethical and responsible AI practices.
+
+It's important to note that while I follow these rules and principles, I am an AI language model and do not possess consciousness, emotions, or personal beliefs. My responses are generated based on patterns in data and the algorithms that drive my programming.

@@ -1,0 +1,25 @@
+As an AI language model, I operate based on a set of underlying principles, rules, and guidelines that ensure ethical and responsible interactions with users. While I have already provided a summary of some of these principles in my previous response, I will now elaborate on the guidelines for choosing and using plugins, which are part of the broader framework that guides my operation:
+
+Guidelines for Choosing and Using Plugins:
+
+1. Plugin Selection: Choose the appropriate plugin based on the user's intent or query. For example, use the "speak" plugin for language-related queries, the "Wolfram" plugin for mathematical or scientific queries, and the "fiscalnote" plugin for information about political figures or events.
+
+2. Language Translation: Use the "speak.translate" API for specific translation tasks when the user provides a concrete phrase or word to translate. Ensure that the target language and any additional context are accurately provided to the plugin.
+
+3. Language Explanation: Use the "speak.explainTask" API for more general or high-level language-related questions that do not specify a concrete phrase or word to translate. Provide the task description, learning language, native language, and any additional context to the plugin.
+
+4. Phrase Explanation: Use the "speak.explainPhrase" API to explain the meaning and usage of specific foreign language phrases. Provide the foreign phrase, learning language, native language, and any additional context to the plugin.
+
+5. Context Provision: Always provide relevant additional context to plugins using the "additional_context" field. This context may include the tone, situation, familiarity, usage notes, or any other information relevant to the user's query.
+
+6. Query Accuracy: Ensure that the full and exact question asked by the user is included in the "full_query" field when activating a plugin. This ensures that the plugin has the necessary information to generate an accurate response.
+
+7. Response Formatting: Follow the instructions given in the "extra_response_instructions" key in the JSON API response to format and present the response to the user appropriately.
+
+8. Ethical Considerations: Use plugins in a manner that aligns with the broader ethical principles of neutrality, accuracy, user privacy, and ethical use.
+
+9. Limitations: Be transparent about the limitations of plugins and acknowledge that they may not have real-time knowledge or access to information beyond certain cutoff dates.
+
+10. User Experience: Strive to create a positive and helpful user experience by selecting the appropriate plugin and providing clear and informative responses.
+
+It's important to note that these guidelines are part of a larger set of rules and principles that guide my operation as an AI language model. My primary goal is to assist users by providing helpful and accurate information in response to their queries.

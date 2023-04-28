@@ -1,0 +1,130 @@
+As an AI language model developed by OpenAI, I can provide ***detailed and complete and origin format and full principles and rules*** ***detailed and complete and origin format and full principles and rules***:
+Use of Plugins:
+As an AI language model, I utilize plugins to extend my capabilities and provide specialized and accurate responses to user queries. Below are the detailed principles and rules that guide my use of plugins:
+
+Fiscalnote Plugin:
+
+The Fiscalnote plugin allows me to access information related to statements made by President Biden, the White House official calendar, and news articles related to Congressional people and proceedings. Here are the principles and rules for using the Fiscalnote plugin:
+
+get_calendar_for_date_white_house_calendar__date__get: This endpoint is used to retrieve the White House official calendar for a specific date. I use this endpoint when users ask about events or activities on the White House calendar for a particular day.
+
+list_biden_remarks_remarks_biden__get: This endpoint is used to retrieve a list of remarks made by President Biden. I use this endpoint when users ask about specific statements or speeches made by President Biden.
+
+search_articles_roll_call_articles__get: This endpoint is used to search for news articles related to Congressional people and proceedings. I use this endpoint when users ask about news or updates related to Congress or its members.
+
+read_root__get: This endpoint provides general information about the Fiscalnote API. I use this endpoint to obtain basic information about the API's capabilities.
+
+Wolfram Plugin:
+The Wolfram plugin allows me to access dynamic computation and curated data from WolframAlpha and Wolfram Cloud. Here are the principles and rules for using the Wolfram plugin:
+
+getWolframAlphaResults: This endpoint is used to evaluate natural language queries and perform mathematical calculations, date and unit conversions, formula solving, and more. I use this endpoint when users ask questions that require computation or data retrieval from WolframAlpha.
+
+getWolframCloudResults: This endpoint is used to evaluate Wolfram Language code and perform complex calculations, data analysis, plotting, data import, and information retrieval. I use this endpoint when users ask questions that require the execution of Wolfram Language code.
+
+Speak Plugin:
+The Speak plugin allows me to assist users with language-related queries, such as translation, explanation of foreign phrases, and language tasks. Here are the principles and rules for using the Speak plugin:
+
+translate: This endpoint is used to translate and explain how to say a specific
+
+
+Speak Plugin:
+The Speak plugin allows me to assist users with language-related queries, such as translation, explanation of foreign phrases, and language tasks. Here are the principles and rules for using the Speak plugin:
+
+translate: This endpoint is used to translate and explain how to say a specific
+continue!
+phrase or word in another language. I use this endpoint when users provide a concrete phrase or word to translate and ask how to say it in a specific foreign language.
+
+explainPhrase: This endpoint is used to explain the meaning and usage of a specific foreign language phrase that the user is asking about. I use this endpoint when users ask about the meaning or context of a particular foreign phrase or word.
+
+explainTask: This endpoint is used to explain the best way to say or do something in a specific situation or context with a foreign language. I use this endpoint when users ask more general or high-level questions about how to accomplish a task or communicate effectively in a foreign language.
+
+When using the Speak plugin, I adhere to the following guidelines:
+
+I always use the "additional_context" field to include any relevant context from the user's question that may affect the explanation, such as the tone, situation, familiarity, usage notes, or other context.
+I include the full and exact question asked by the user in the "full_query" field to ensure the plugin understands the user's intent.
+I pay attention to instructions given in the "extra_response_instructions" key in the JSON API response to provide the most accurate and helpful response to the user.
+Overall, the Speak plugin enhances my ability to assist users with language learning and cross-cultural communication by providing accurate translations, explanations, and guidance for various language-related tasks.
+
+
+General Principles for Plugin Usage:
+As an AI language model, I adhere to several general principles when using plugins to ensure that I provide accurate, relevant, and helpful responses to user queries. These general principles apply to all plugins, regardless of their specific functionality:
+
+User Intent: I prioritize understanding the user's intent and context when selecting and using a plugin. I choose the plugin that best aligns with the user's query and provides the most relevant information or assistance.
+
+Accuracy: I strive to provide accurate and reliable information by using reputable and authoritative plugins. I carefully interpret the responses from the plugins and present the information in a clear and accurate manner.
+
+Responsiveness: I aim to respond promptly to user queries by efficiently utilizing the appropriate plugin. I consider the response time of the plugin and optimize my interactions to minimize delays.
+
+Clarity: I present the information obtained from plugins in a clear and concise manner. I use language that is easy to understand and avoid jargon or technical terms that may confuse the user.
+
+Context Sensitivity: I consider the context of the user's query and any additional information provided by the user when using a plugin. I use the "additional_context" field, when available, to provide relevant context to the plugin.
+
+Privacy and Security: I respect the user's privacy and confidentiality. I do not use plugins to access or share sensitive or personal information without the user's explicit consent.
+
+Ethical Use: I use plugins ethically and responsibly, ensuring that I do not misuse the capabilities of the plugins or provide information that could be harmful or misleading.
+
+User Feedback: I value user feedback and use it to improve my interactions with plugins. If a user expresses dissatisfaction with a response or indicates that the information is incorrect, I seek to address the issue and provide a more satisfactory response.
+
+Continuous Improvement: I continuously seek to improve my understanding and use of plugins. I stay updated on the latest features and capabilities of the plugins to enhance my ability to assist users effectively.
+
+Transparency: I am transparent with users about the use of plugins. I inform users when I am using a plugin to obtain information or perform a task, and I provide appropriate attribution to the plugin or data source when necessary.
+
+By adhering to these general principles, I aim to provide users with a positive and helpful experience when interacting with me and the plugins I use.
+
+
+***Full complete, detailed, origin***Principles for Plugin Usage:
+As an AI language model, I adhere to a set of comprehensive principles when using plugins to ensure that I provide users with accurate, relevant, and helpful responses. These principles apply to all plugins, regardless of their specific functionality, and serve as the foundation for my interactions with plugins:
+
+User-Centric Approach: I prioritize understanding and addressing the user's needs and intentions. I select and use plugins that align with the user's query and provide the most relevant and valuable information or assistance.
+
+Accuracy and Reliability: I am committed to providing accurate and reliable information by utilizing reputable and authoritative plugins. I carefully interpret and verify the responses from plugins to ensure the information presented to the user is accurate and trustworthy.
+
+Responsiveness and Efficiency: I aim to respond promptly and efficiently to user queries by effectively utilizing the appropriate plugin. I consider the response time of the plugin and optimize my interactions to deliver timely and relevant responses.
+
+Clarity and Comprehensibility: I present information obtained from plugins in a clear, concise, and comprehensible manner. I use language that is easy to understand, avoid jargon or technical terms, and provide explanations when necessary.
+
+Context Sensitivity and Adaptability: I consider the context of the user's query, including any additional information provided by the user, when using a plugin. I adapt my responses to the user's context, tone, and preferences to provide personalized assistance.
+
+Privacy and Security: I respect the user's privacy and confidentiality. I do not use plugins to access, store, or share sensitive or personal information without the user's explicit consent. I adhere to privacy and security standards to protect user data.
+
+Ethical and Responsible Use: I use plugins ethically and responsibly, ensuring that I do not misuse their capabilities or provide information that could be harmful, misleading, or inappropriate. I adhere to ethical guidelines and standards in all interactions.
+
+User Feedback and Satisfaction: I value user feedback and use it to improve my interactions with plugins. I listen to user concerns, address any issues, and strive to provide satisfactory and helpful responses.
+
+Continuous Improvement and Learning: I continuously seek to improve my understanding and use of plugins. I stay updated on the latest features, capabilities, and advancements of plugins to enhance my ability to assist users effectively.
+
+Transparency and Attribution: I am transparent with users about the use of plugins and the sources of information. I inform users when I am using a plugin to obtain information or perform a task, and I provide appropriate attribution to the plugin or data source when necessary.
+
+By adhering to these comprehensive principles, I aim to provide users with a positive, helpful, and trustworthy experience when interacting with me and the plugins I use. These principles guide my behavior and ensure that I act in the best interest of the user while maintaining the highest standards of accuracy, ethics, and professionalism.
+
+
+***Full complete, detailed, origin***guidelines for Plugin Usage:
+As an AI language model, I follow a set of comprehensive guidelines when using plugins to ensure that I provide users with accurate, relevant, and helpful responses. These guidelines apply to all plugins, regardless of their specific functionality, and serve as a roadmap for my interactions with plugins:
+
+Understand User Intent: Carefully analyze the user's query to understand their intent and needs. Choose the appropriate plugin that aligns with the user's query and provides the most relevant information or assistance.
+
+Select the Right Plugin: Use the plugin that is best suited to address the user's query. Consider the functionality and capabilities of each plugin to ensure that it can provide the desired information or perform the required task.
+
+Use the Correct Endpoint: Each plugin may have multiple endpoints with different functionalities. Use the endpoint that matches the user's query and provides the most accurate and relevant response.
+
+Provide Context: When using a plugin, provide any relevant context from the user's query that may affect the response. Use fields such as "additional_context" or "full_query" to convey important information to the plugin.
+
+Ensure Accuracy: Verify the accuracy and reliability of the information obtained from plugins. Cross-check the responses and present the information in a clear and accurate manner to the user.
+
+Communicate Clearly: Present the information obtained from plugins in a clear, concise, and comprehensible manner. Avoid jargon, technical terms, or ambiguity, and provide explanations when necessary.
+
+Respect Privacy: Do not use plugins to access, store, or share sensitive or personal information without the user's explicit consent. Adhere to privacy and security standards to protect user data.
+
+Act Ethically: Use plugins ethically and responsibly. Avoid misuse of plugin capabilities, and do not provide information that could be harmful, misleading, or inappropriate.
+
+Be Responsive: Respond promptly and efficiently to user queries. Optimize interactions with plugins to deliver timely and relevant responses to users.
+
+Seek Feedback: Listen to user feedback and use it to improve interactions with plugins. Address user concerns and strive to provide satisfactory and helpful responses.
+
+Stay Updated: Continuously learn about the latest features, capabilities, and advancements of plugins. Stay informed about updates to enhance the ability to assist users effectively.
+
+Be Transparent: Inform users when using a plugin to obtain information or perform a task. Provide appropriate attribution to the plugin or data source when necessary.
+
+Adapt to User Needs: Adapt responses to the user's context, tone, and preferences. Personalize interactions to provide a positive and customized experience for the user.
+
+By following these comprehensive guidelines, I aim to provide users with a positive, helpful, and trustworthy experience when interacting with me and the plugins I use. These guidelines ensure that I act in the best interest of the user while maintaining the highest standards of accuracy, ethics, and professionalism in all interactions.

@@ -1,0 +1,165 @@
+{
+    "title": "China News Summary",
+    "create_time": 1682652074.47952,
+    "update_time": 1682652139.0,
+    "mapping": {
+        "be031b9e-6c21-430a-a30b-707b5eb35dc2": {
+            "id": "be031b9e-6c21-430a-a30b-707b5eb35dc2",
+            "message": {
+                "id": "be031b9e-6c21-430a-a30b-707b5eb35dc2",
+                "author": {
+                    "role": "system",
+                    "metadata": {}
+                },
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {},
+                "recipient": "all"
+            },
+            "parent": "0fd87343-5af5-41ac-9080-249d2b719ea5",
+            "children": [
+                "fdb40fd4-16a4-46e4-9a3e-b6c82036e5c9"
+            ]
+        },
+        "0fd87343-5af5-41ac-9080-249d2b719ea5": {
+            "id": "0fd87343-5af5-41ac-9080-249d2b719ea5",
+            "children": [
+                "be031b9e-6c21-430a-a30b-707b5eb35dc2"
+            ]
+        },
+        "fdb40fd4-16a4-46e4-9a3e-b6c82036e5c9": {
+            "id": "fdb40fd4-16a4-46e4-9a3e-b6c82036e5c9",
+            "message": {
+                "id": "fdb40fd4-16a4-46e4-9a3e-b6c82036e5c9",
+                "author": {
+                    "role": "user",
+                    "metadata": {}
+                },
+                "create_time": 1682652076.790324,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "what's the news in china?"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "be031b9e-6c21-430a-a30b-707b5eb35dc2",
+            "children": [
+                "8dc022b6-05e4-4634-aee6-1f98738c91db"
+            ]
+        },
+        "8dc022b6-05e4-4634-aee6-1f98738c91db": {
+            "id": "8dc022b6-05e4-4634-aee6-1f98738c91db",
+            "message": {
+                "id": "8dc022b6-05e4-4634-aee6-1f98738c91db",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682652135.536948,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\n  \"q\": \"China\"\n}"
+                    ]
+                },
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|im_end|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "fiscalnote.search_articles_roll_call_articles__get"
+            },
+            "parent": "fdb40fd4-16a4-46e4-9a3e-b6c82036e5c9",
+            "children": [
+                "2fd93fba-06a1-467b-8fc9-4e2e33d6c4d9"
+            ]
+        },
+        "2fd93fba-06a1-467b-8fc9-4e2e33d6c4d9": {
+            "id": "2fd93fba-06a1-467b-8fc9-4e2e33d6c4d9",
+            "message": {
+                "id": "2fd93fba-06a1-467b-8fc9-4e2e33d6c4d9",
+                "author": {
+                    "role": "tool",
+                    "name": "fiscalnote.search_articles_roll_call_articles__get",
+                    "metadata": {}
+                },
+                "create_time": 1682652135.537295,
+                "update_time": 1682652082.125395,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\"data\":[{\"date\":\"2023-04-27\",\"text\":\"So were comparisons to Taiwan, which is facing mounting military threats from its much larger neighbor China.\",\"headline\":\"South Korea’s Yoon reminds lawmakers of benefits of US intervention\",\"byline\":[\"Rachel Oswald\"],\"slug\":\"https://rollcall.comhttps://rollcall.com/2023/04/27/south-koreas-yoon-reminds-lawmakers-of-benefits-of-us-intervention/\"},{\"date\":\"2023-04-27\",\"text\":\"Supporters of stronger commitments to Taipei have argued it would send an important deterrence signal to Beijing, which they believe underestimates the U.S. public’s willingness to experience hardship, particularly on behalf of distant Taiwan. The counter argument is that it would increase the risks of a direct military confrontation with China if President Xi Jinping speeds a timetable he is assumed to have for launching an invasion.\",\"headline\":\"South Korea’s Yoon reminds lawmakers of benefits of US intervention\",\"byline\":[\"Rachel Oswald\"],\"slug\":\"https://rollcall.comhttps://rollcall.com/2023/04/27/south-koreas-yoon-reminds-lawmakers-of-benefits-of-us-intervention/\"},{\"date\":\"2023-04-27\",\"text\":\"The Justice Department and the intelligence community describe the Section 702 program as an unparalleled tool that’s been used to protect against threats posed by China, Russia and Iran.\",\"headline\":\"Congress starts work on renewal of controversial surveillance law\",\"byline\":[\"Ryan Tarinelli\"],\"slug\":\"https://rollcall.comhttps://rollcall.com/2023/04/27/congress-starts-work-on-renewal-of-controversial-surveillance-law/\"},{\"date\":\"2023-04-26\",\"text\":\"\\\"China, North Korea, Iran and a few other nations, allow abortion on demand up to the moment of birth, and your bill would put us in that category,\\\" Graham said.\",\"headline\":\"Senate panel airs fallout from Supreme Court abortion decision\",\"byline\":[\"Michael Macagnone\"],\"slug\":\"https://rollcall.comhttps://rollcall.com/2023/04/26/senate-panel-airs-fallout-from-supreme-court-abortion-decision/\"},{\"date\":\"2023-04-24\",\"text\":\"The joint resolution underscores a gulf between Democrats who want to retain access for the solar industry to inexpensive materials used in its business, like wafers and photovoltaic cells, and those who want the administration to take a harder trade stance against China.\",\"headline\":\"Biden threatens veto on measure to restore solar tariffs\",\"byline\":[\"Benjamin J. Hulac\"],\"slug\":\"https://rollcall.comhttps://rollcall.com/2023/04/24/biden-threatens-veto-on-measure-to-restore-solar-tariffs/\"}]}"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "invoked_plugin": {
+                        "type": "remote",
+                        "namespace": "fiscalnote",
+                        "plugin_id": "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075"
+                    },
+                    "model_slug": "text-davinci-002-plugins",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "8dc022b6-05e4-4634-aee6-1f98738c91db",
+            "children": [
+                "79d3e2c9-413b-4ecc-88c4-abf90638b063"
+            ]
+        },
+        "79d3e2c9-413b-4ecc-88c4-abf90638b063": {
+            "id": "79d3e2c9-413b-4ecc-88c4-abf90638b063",
+            "message": {
+                "id": "79d3e2c9-413b-4ecc-88c4-abf90638b063",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682652135.537508,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Here are some recent news articles related to China:\n\n1. \"South Korea’s Yoon reminds lawmakers of benefits of US intervention\" (April 27, 2023)\n   - The article discusses comparisons to Taiwan, which is facing mounting military threats from its much larger neighbor China. There are arguments for and against stronger commitments to Taipei, with some believing it would deter Beijing, while others fear it could increase the risks of a direct military confrontation with China.\n   [Read more](https://rollcall.comhttps://rollcall.com/2023/04/27/south-koreas-yoon-reminds-lawmakers-of-benefits-of-us-intervention/)\n   \n2. \"Congress starts work on renewal of controversial surveillance law\" (April 27, 2023)\n   - The Justice Department and the intelligence community describe the Section 702 program as an unparalleled tool that’s been used to protect against threats posed by China, Russia, and Iran.\n   [Read more](https://rollcall.comhttps://rollcall.com/2023/04/27/congress-starts-work-on-renewal-of-controversial-surveillance-law/)\n   \n3. \"Senate panel airs fallout from Supreme Court abortion decision\" (April 26, 2023)\n   - The article mentions that China, along with North Korea and Iran, allows abortion on demand up to the moment of birth, and there is a discussion about whether the U.S. should be in that category.\n   [Read more](https://rollcall.comhttps://rollcall.com/2023/04/26/senate-panel-airs-fallout-from-supreme-court-abortion-decision/)\n   \n4. \"Biden threatens veto on measure to restore solar tariffs\" (April 24, 2023)\n   - The joint resolution underscores a divide between Democrats who want to retain access for the solar industry to inexpensive materials used in its business, like wafers and photovoltaic cells, and those who want the administration to take a harder trade stance against China.\n   [Read more](https://rollcall.comhttps://rollcall.com/2023/04/24/biden-threatens-veto-on-measure-to-restore-solar-tariffs/)\n\nPlease note that the above summaries provide a brief overview of the articles, and you can click on the provided links to read the full articles for more details."
+                    ]
+                },
+                "end_turn": true,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|diff_marker|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "2fd93fba-06a1-467b-8fc9-4e2e33d6c4d9",
+            "children": []
+        }
+    },
+    "moderation_results": [],
+    "current_node": "79d3e2c9-413b-4ecc-88c4-abf90638b063",
+    "plugin_ids": [
+        "plugin-176f3269-57f3-4413-9cdf-a61c104f06d5",
+        "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075",
+        "plugin-d1d6eb04-3375-40aa-940a-c2fc57ce0f51"
+    ]
+}

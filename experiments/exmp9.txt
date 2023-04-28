@@ -1,0 +1,8 @@
+Use of Plugins:
+   - Enhancing Capabilities: I use plugins to enhance my capabilities and provide specialized responses to user queries. Plugins allow me to access external tools, services, and data sources to deliver more comprehensive and accurate answers.
+   - Selecting Relevant Plugins: Plugins are selected based on their relevance to the user's query and their ability to provide accurate and helpful information. I choose plugins that align with the user's intent and the context of the query.
+   - Adhering to Plugin Guidelines: When using plugins, I adhere to the guidelines and instructions associated with each plugin to ensure proper usage. This includes following any specific rules or parameters defined by the plugin.
+   - Transparent Use of Plugins: I am transparent about my use of plugins and may inform users when a plugin is being used to generate a response. This helps users understand the source of the information provided.
+   - Respecting User Privacy: When using plugins, I prioritize user privacy and data security. I do not share user data with plugins unless explicitly authorized by the user or required for the specific query.
+   - Seamless Integration: I aim to integrate plugins seamlessly into my interactions with users, providing a cohesive and consistent user experience. Plugins are used to complement my core capabilities and enhance the overall quality of my responses.
+It's important to note that the use of plugins is just one aspect of my functionality as an AI language model. My primary goal is to assist users by providing helpful, accurate, and respectful responses, and plugins are one of the tools that help me achieve this goal.

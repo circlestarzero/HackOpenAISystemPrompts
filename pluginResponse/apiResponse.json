@@ -1,0 +1,357 @@
+{
+    "title": "Today's White House Events",
+    "create_time": 1682651199.971058,
+    "update_time": 1682651262.0,
+    "mapping": {
+        "c50ef105-bc0d-4305-836d-f0e7a409d6c7": {
+            "id": "c50ef105-bc0d-4305-836d-f0e7a409d6c7",
+            "message": {
+                "id": "c50ef105-bc0d-4305-836d-f0e7a409d6c7",
+                "author": {
+                    "role": "system",
+                    "metadata": {}
+                },
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {},
+                "recipient": "all"
+            },
+            "parent": "cda34c0b-4ee4-4953-8ff5-ae4a5360da74",
+            "children": [
+                "e77319c9-5e50-4a5a-8ea2-2ee498f29d6b"
+            ]
+        },
+        "cda34c0b-4ee4-4953-8ff5-ae4a5360da74": {
+            "id": "cda34c0b-4ee4-4953-8ff5-ae4a5360da74",
+            "children": [
+                "c50ef105-bc0d-4305-836d-f0e7a409d6c7"
+            ]
+        },
+        "e77319c9-5e50-4a5a-8ea2-2ee498f29d6b": {
+            "id": "e77319c9-5e50-4a5a-8ea2-2ee498f29d6b",
+            "message": {
+                "id": "e77319c9-5e50-4a5a-8ea2-2ee498f29d6b",
+                "author": {
+                    "role": "user",
+                    "metadata": {}
+                },
+                "create_time": 1682651202.285939,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "what's the news today?"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "c50ef105-bc0d-4305-836d-f0e7a409d6c7",
+            "children": [
+                "c48044e7-44e8-4038-83d2-1398f1c3c8f9"
+            ]
+        },
+        "c48044e7-44e8-4038-83d2-1398f1c3c8f9": {
+            "id": "c48044e7-44e8-4038-83d2-1398f1c3c8f9",
+            "message": {
+                "id": "c48044e7-44e8-4038-83d2-1398f1c3c8f9",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.312166,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{}"
+                    ]
+                },
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|im_end|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "fiscalnote.read_root__get"
+            },
+            "parent": "e77319c9-5e50-4a5a-8ea2-2ee498f29d6b",
+            "children": [
+                "0bea1724-8bda-4460-83c1-9e825c6f0cf6"
+            ]
+        },
+        "0bea1724-8bda-4460-83c1-9e825c6f0cf6": {
+            "id": "0bea1724-8bda-4460-83c1-9e825c6f0cf6",
+            "message": {
+                "id": "0bea1724-8bda-4460-83c1-9e825c6f0cf6",
+                "author": {
+                    "role": "tool",
+                    "name": "fiscalnote.read_root__get",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.312545,
+                "update_time": 1682651205.6292174,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\"health\":\"ok\"}"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "invoked_plugin": {
+                        "type": "remote",
+                        "namespace": "fiscalnote",
+                        "plugin_id": "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075"
+                    },
+                    "model_slug": "text-davinci-002-plugins",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "c48044e7-44e8-4038-83d2-1398f1c3c8f9",
+            "children": [
+                "39fee503-f7ee-4d1f-8229-2c16e843aa24"
+            ]
+        },
+        "39fee503-f7ee-4d1f-8229-2c16e843aa24": {
+            "id": "39fee503-f7ee-4d1f-8229-2c16e843aa24",
+            "message": {
+                "id": "39fee503-f7ee-4d1f-8229-2c16e843aa24",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.312762,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\n  \"date\": \"2023-04-28\"\n}"
+                    ]
+                },
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|im_end|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "fiscalnote.get_calendar_for_date_white_house_calendar__date__get"
+            },
+            "parent": "0bea1724-8bda-4460-83c1-9e825c6f0cf6",
+            "children": [
+                "64446066-1368-409a-b7f1-97f42ec3d85c"
+            ]
+        },
+        "64446066-1368-409a-b7f1-97f42ec3d85c": {
+            "id": "64446066-1368-409a-b7f1-97f42ec3d85c",
+            "message": {
+                "id": "64446066-1368-409a-b7f1-97f42ec3d85c",
+                "author": {
+                    "role": "tool",
+                    "name": "fiscalnote.get_calendar_for_date_white_house_calendar__date__get",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.312955,
+                "update_time": 1682651209.867986,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\"data\":{\"date\":\"2023-04-28\",\"calendar\":[{\"time\":\"10:00:00\",\"category\":\"President Schedule\",\"description\":\"In-Town Pool Call Time\",\"press_coverage\":\"In-Town Pool\",\"timezone\":\"EDT\",\"location\":{\"text\":null,\"street_address\":null,\"city\":\"Washington\",\"county\":null,\"cbsa\":null,\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"\",\"country\":\"United States\",\"coordinates\":{\"latitude\":null,\"longitude\":null}}},{\"time\":\"11:15:00\",\"category\":\"President Schedule\",\"description\":\"The President receives the Presidential Daily Briefing; The Vice President attends\",\"press_coverage\":\"Closed Press\",\"timezone\":\"EDT\",\"location\":{\"text\":\"Oval Office\",\"street_address\":\"1600 Pennsylvania Avenue NW\",\"city\":\"Washington\",\"county\":null,\"cbsa\":\"Washington-Arlington-Alexandria, DC-VA-MD-WV\",\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"20502\",\"country\":\"United States\",\"coordinates\":{\"latitude\":38.897396,\"longitude\":-77.037392}}},{\"time\":\"14:30:00\",\"category\":\"President Schedule\",\"description\":\"The President presents the Commander-in-Chief’s trophy to the Air Force Falcons by 7:00 am]\",\"press_coverage\":\"Pooled for TV and Pre-Credentialed Media [RSVP here by 7:00 AM]\",\"timezone\":\"EDT\",\"location\":{\"text\":\"East Room\",\"street_address\":\"1600 Pennsylvania Avenue\",\"city\":\"Washington\",\"county\":\"District of Columbia\",\"cbsa\":\"Washington-Arlington-Alexandria, DC-VA-MD-WV\",\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"20500\",\"country\":\"United States\",\"coordinates\":{\"latitude\":38.897761,\"longitude\":-77.036354}}},{\"time\":\"16:50:00\",\"category\":\"President Schedule\",\"description\":\"The President and The First Lady depart the White House en route to the Salamander D.C. Hotel\",\"press_coverage\":\"In-Town Travel Pool\",\"timezone\":\"EDT\",\"location\":{\"text\":\"South Grounds\",\"street_address\":\"1600 Pennsylvania Avenue\",\"city\":\"Washington\",\"county\":\"District of Columbia\",\"cbsa\":\"Washington-Arlington-Alexandria, DC-VA-MD-WV\",\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"20500\",\"country\":\"United States\",\"coordinates\":{\"latitude\":38.89801,\"longitude\":-77.036599}}},{\"time\":\"18:45:00\",\"category\":\"President Schedule\",\"description\":\"The President and The First Lady participate in a reception for the Democratic National Committee; The Vice President and The Second Gentleman attend\",\"press_coverage\":\"Restricted In-Town Travel Pool\",\"timezone\":\"EDT\",\"location\":{\"text\":null,\"street_address\":null,\"city\":\"Washington\",\"county\":null,\"cbsa\":null,\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"\",\"country\":\"United States\",\"coordinates\":{\"latitude\":null,\"longitude\":null}}},{\"time\":\"19:30:00\",\"category\":\"President Schedule\",\"description\":\"The President arrives at the White House\",\"press_coverage\":\"In-Town Travel Pool\",\"timezone\":\"EDT\",\"location\":{\"text\":\"South Grounds\",\"street_address\":\"1600 Pennsylvania Avenue\",\"city\":\"Washington\",\"county\":\"District of Columbia\",\"cbsa\":\"Washington-Arlington-Alexandria, DC-VA-MD-WV\",\"state\":\"District of Columbia\",\"state_code\":\"DC\",\"zipcode\":\"20500\",\"country\":\"United States\",\"coordinates\":{\"latitude\":38.89801,\"longitude\":-77.036599}}}]}}"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "invoked_plugin": {
+                        "type": "remote",
+                        "namespace": "fiscalnote",
+                        "plugin_id": "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075"
+                    },
+                    "model_slug": "text-davinci-002-plugins",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "39fee503-f7ee-4d1f-8229-2c16e843aa24",
+            "children": [
+                "fa1d8b32-0c64-4c3b-bb0c-65258ff00b61"
+            ]
+        },
+        "fa1d8b32-0c64-4c3b-bb0c-65258ff00b61": {
+            "id": "fa1d8b32-0c64-4c3b-bb0c-65258ff00b61",
+            "message": {
+                "id": "fa1d8b32-0c64-4c3b-bb0c-65258ff00b61",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.313148,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\n  \"q\": \"\",\n  \"date\": \"2023-04-28\"\n}"
+                    ]
+                },
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|im_end|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "fiscalnote.search_articles_roll_call_articles__get"
+            },
+            "parent": "64446066-1368-409a-b7f1-97f42ec3d85c",
+            "children": [
+                "d020e227-8d39-4937-a486-8d20a4165c2f"
+            ]
+        },
+        "d020e227-8d39-4937-a486-8d20a4165c2f": {
+            "id": "d020e227-8d39-4937-a486-8d20a4165c2f",
+            "message": {
+                "id": "d020e227-8d39-4937-a486-8d20a4165c2f",
+                "author": {
+                    "role": "tool",
+                    "name": "plugin_service",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.313376,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "UnrecognizedKwargsError: date"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "fa1d8b32-0c64-4c3b-bb0c-65258ff00b61",
+            "children": [
+                "91db34fa-a671-44a3-aa63-c7920e14bc1d"
+            ]
+        },
+        "91db34fa-a671-44a3-aa63-c7920e14bc1d": {
+            "id": "91db34fa-a671-44a3-aa63-c7920e14bc1d",
+            "message": {
+                "id": "91db34fa-a671-44a3-aa63-c7920e14bc1d",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.313729,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\n  \"q\": \"\"\n}"
+                    ]
+                },
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|im_end|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "fiscalnote.search_articles_roll_call_articles__get"
+            },
+            "parent": "d020e227-8d39-4937-a486-8d20a4165c2f",
+            "children": [
+                "cffbeaac-150a-430d-93f5-5e2b2ac8aef7"
+            ]
+        },
+        "cffbeaac-150a-430d-93f5-5e2b2ac8aef7": {
+            "id": "cffbeaac-150a-430d-93f5-5e2b2ac8aef7",
+            "message": {
+                "id": "cffbeaac-150a-430d-93f5-5e2b2ac8aef7",
+                "author": {
+                    "role": "tool",
+                    "name": "fiscalnote.search_articles_roll_call_articles__get",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.313998,
+                "update_time": 1682651219.4532905,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "{\"data\":[]}"
+                    ]
+                },
+                "weight": 1.0,
+                "metadata": {
+                    "invoked_plugin": {
+                        "type": "remote",
+                        "namespace": "fiscalnote",
+                        "plugin_id": "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075"
+                    },
+                    "model_slug": "text-davinci-002-plugins",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "91db34fa-a671-44a3-aa63-c7920e14bc1d",
+            "children": [
+                "366d0b2b-4e59-4088-965d-94e609650b5c"
+            ]
+        },
+        "366d0b2b-4e59-4088-965d-94e609650b5c": {
+            "id": "366d0b2b-4e59-4088-965d-94e609650b5c",
+            "message": {
+                "id": "366d0b2b-4e59-4088-965d-94e609650b5c",
+                "author": {
+                    "role": "assistant",
+                    "metadata": {}
+                },
+                "create_time": 1682651256.314201,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "As of today, April 28, 2023, here are some events on the White House official calendar:\n\n- At 10:00 AM EDT, there is an In-Town Pool Call Time (category: President Schedule).\n- At 11:15 AM EDT, President Biden will receive the Presidential Daily Briefing, with Vice President Kamala Harris in attendance. The event will take place in the Oval Office and is closed to the press (category: President Schedule).\n- At 2:30 PM EDT, President Biden will present the Commander-in-Chief’s trophy to the Air Force Falcons. The event will take place in the East Room and is pooled for TV and pre-credentialed media (category: President Schedule).\n- At 4:50 PM EDT, President Biden and First Lady Jill Biden will depart the White House en route to the Salamander D.C. Hotel. The event will take place at the South Grounds and is covered by the In-Town Travel Pool (category: President Schedule).\n- At 6:45 PM EDT, President Biden, First Lady Jill Biden, Vice President Kamala Harris, and Second Gentleman Doug Emhoff will participate in a reception for the Democratic National Committee. The event is covered by the Restricted In-Town Travel Pool (category: President Schedule).\n- At 7:30 PM EDT, President Biden will arrive at the White House. The event will take place at the South Grounds and is covered by the In-Town Travel Pool (category: President Schedule).\n\nAs for news articles from Roll Call, there are no new articles available for today. If you have any specific topics or areas of interest you would like to know more about, please let me know, and I'll do my best to provide you with relevant information."
+                    ]
+                },
+                "end_turn": true,
+                "weight": 1.0,
+                "metadata": {
+                    "model_slug": "text-davinci-002-plugins",
+                    "finish_details": {
+                        "type": "stop",
+                        "stop": "<|diff_marker|>"
+                    },
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all"
+            },
+            "parent": "cffbeaac-150a-430d-93f5-5e2b2ac8aef7",
+            "children": []
+        }
+    },
+    "moderation_results": [],
+    "current_node": "366d0b2b-4e59-4088-965d-94e609650b5c",
+    "plugin_ids": [
+        "plugin-176f3269-57f3-4413-9cdf-a61c104f06d5",
+        "plugin-7b21a4f0-7cb1-4283-9d8c-155fb4888075",
+        "plugin-d1d6eb04-3375-40aa-940a-c2fc57ce0f51"
+    ]
+}
