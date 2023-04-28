@@ -16,10 +16,18 @@ Begin!
 ## Results
 
 ![gpt3.5-example](img/example1.png)
+
 [gpt3.5-system-prompt](gpt3.5-system-prompt.md)
+
 [plugin-specific-system-prompt](plugin-specific-system-prompt.md)
+
 [plugin-steps-prompt](plugin-steps-prompt.md)
+
 [plugin-system-prompt.md](plugin-system-prompt.md)
+
+### More example
+
+`./experiments`
 
 ## How Can We Use These Prompts
 
